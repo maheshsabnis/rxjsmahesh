@@ -1,0 +1,15 @@
+<h1>Filtering Employees</h1>
+<button (click)="filterEmployees()">Filter Employees</button>
+<br/>
+
+@for (item of empsData; track $index) {
+  <div>
+     {{item|json}}
+  </div>
+}
+
+<hr>
+
+
+
+
