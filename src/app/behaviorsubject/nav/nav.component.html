@@ -1,0 +1,7 @@
+<h3>NavComponent</h3>
+
+<div *ngFor="let menu of menus; index as id">
+    <ul>
+        <li><button (click)="change_val(menu.id)">{{menu.name}}</button>
+    </ul>
+</div>
